@@ -1,0 +1,10 @@
+Flask
+gensim
+nltk
+wordfreq
+torch
+torchvision
+torchaudio
+stop-words
+transformers
+gevent

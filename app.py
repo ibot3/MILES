@@ -59,6 +59,6 @@ if __name__ == "__main__":
         models.embeddings = models.load_embeddings(config.lang)
 
     print("\nStarting MILES Flask server...")
-    http_server = WSGIServer(('0.0.0.0', 80), app)    
-    print("\nLoaded as HTTP Server on port 80, running forever:")
+    http_server = WSGIServer(('0.0.0.0', 8080), app)    
+    print("\nLoaded as HTTP Server on port 8080, running forever:")
     http_server.serve_forever()
